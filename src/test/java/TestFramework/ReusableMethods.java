@@ -31,7 +31,7 @@ public class ReusableMethods {
 	{
 		RestAssured.baseURI= "http://localhost:8080";
 		Response res=given().header("Content-Type", "application/json").
-		body("{ \"username\": \"rahulonlinetutor\", \"password\": \"Jira12345\" }").
+		body("{ \"username\": \"sangamesh\", \"password\": \"abcd12345\" }").
 		when().
 		post("/rest/auth/1/session").then().statusCode(200).
 		extract().response();
