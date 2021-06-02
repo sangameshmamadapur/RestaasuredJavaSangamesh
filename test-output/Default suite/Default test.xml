@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite hostname="DESKTOP-U19J6DA" failures="0" tests="1" name="TestFramework.postAPI" time="5.138" errors="0" timestamp="2 Jun 2021 13:20:30 GMT">
+  <testcase classname="TestFramework.postAPI" name="addBook" time="5.11"/>
+</testsuite>
